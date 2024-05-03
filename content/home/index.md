@@ -9,10 +9,11 @@ weight: 1
 
 <!-- section 1 (header) -->
 
-{% row(style="left" margin="hero" reverse="rightreserve" padding="top") %}
+{% row(style="left" margin="narrow" reverse="rightreserve" padding="top") %}
 
 <div class="px-2 md:px-8 lg:px-14">
 
+<br>
 <br>
 <br>
 
