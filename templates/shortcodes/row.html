@@ -75,11 +75,14 @@ Parameters:
     {% if "none" in padding %}
         {% set padding_class = " py-0" %}
     {% elif "top" in padding %}
-        {% set padding_class = " py-0 lg:pt-24" %}
+        {% set padding_class = " py-0 lg:pt-12" %}
     {% elif "bottom" in padding %}
-        {% set padding_class = " py-2 md:py-4 lg:pb-24" %}
+        {% set padding_class = " py-2 md:py-4 lg:pb-12" %}
     {% elif "both" in padding %}
-        {% set padding_class = " py-8 md:py-4 lg:py-24" %}
+        {% set padding_class = " py-4 md:py-8 lg:py-16" %}
+    {% endif %}
+    {% if "hero" in padding %}
+        {% set padding_class = " py-4 md:py-4 lg:py-12" %}
     {% endif %}
 {% endif %}
 
@@ -98,7 +101,9 @@ Parameters:
     {% if "none" in margin %}
         {% set margin_class = " mx-0" %}
     {% elif "wide" in margin %}
-        {% set margin_class = " mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20 " %}
+        {% set margin_class = " mx-2 sm:mx-4 md:mx-6 lg:mx-8 xl:mx-10 " %}
+    {% elif "semiwide" in margin %}
+        {% set margin_class = " mx-2 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20 " %}
     {% elif "moderate" in margin %}
         {% set margin_class = " mx-4 sm:mx-16 md:mx-20 lg:mx-28" %}
     {% elif "narrow" in margin %}
@@ -122,6 +127,9 @@ Parameters:
         {% set margin_right = margin | replace(from="mx", to="-mr") %}
         {% set col_class = col_class ~ " md:first:px-8  lg:first:px-20 lg:max-w-[50%] lg:mx-0 " ~ margin_left ~ margin_right %}
         {% set row_class = row_class ~ " sm:gap-0 " %}
+    {% endif %}
+    {% if "hero" in margin %}
+        {% set margin_class = " mx-4 md:mx-16 lg:mx-24" %}
     {% endif %}
 {% endif %}
 

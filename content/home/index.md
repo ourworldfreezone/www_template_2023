@@ -1,5 +1,5 @@
 ---
-title: "Ourworld Free Zone"
+title: "Hero"
 description: ""
 date: 2018-09-14
 updated: 2021-02-20
@@ -9,20 +9,22 @@ weight: 1
 
 <!-- section 1 (header) -->
 
-{% row(style="left" margin="none" reverse="rightreserve" padding="bottom") %}
+{% row(style="left" margin="hero" reverse="rightreserve" padding="top") %}
 
-<div class="px-4 md:px-16 lg:px-28">
+<div class="px-2 md:px-8 lg:px-14">
 
 <br>
 <br>
 
-# h1 title
-## h2 subtitle
+# Become the Hero of your own digital world.
+### Start owning your data and digital life.
 
-### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<p>With Hero, we can build a conscious collective intelligence together.</p>
+
+<br>
 
 <button onclick="yourlink">
-  button
+  Learn More
 </button>
 
 </div>
@@ -35,15 +37,135 @@ weight: 1
 
 {% end %}
 
-<!-- section 2 (header) -->
+
+
+
+
+
+<!-- section 2 WHAT -->
+
+{% row(style="left" margin="hero"  padding="bottom") %}
+
+![placeholder](./img/img_section.png#mx-auto)
+
+|||
+
+## Everyone can be a Hero
+
+<p>Hero is your own personal intelligent digital identity that fosters a collective intelligence and empower everyone to enhance our digital existence with unfettered access to essential tools for learning, participating, and thriving within the Mycelium Network.</p>
+
+<br>
+
+<div class="border-t border-gray-200 dark:border-gray-700">
+</div>
+
+
+<br>
+
+<ul>
+  <li>◉   Unified Digital Identity</li>
+  <li>◉   Enhanced Privacy and Security</li>
+  <li>◉   Seamless Integration and Accessibility</li>
+  <li>◉   Customizable and Extensible Experiences</li>
+</ul>
+
+<br>
+
+<div class="border-t border-gray-200 dark:border-gray-700">
+</div>
+
+<br>
+
+<a href="/hero.md"><p class="link2"><b>→ Learn More About Hero</b></p></a>
+
+{% end %}
+
+
+
+
+
+
+<!-- section 3 (myc) -->
 
 <div class="container mx-auto"> 
 
 {% row(style="center" margin="withContainer" padding="none") %}
 
-## h2 h2 h2
+## Our Alter Ego within the Mycelium Network
 
-### h3 h3 h3
+![](img/mycelium.png#mx-auto)
+
+{% end %}
+
+
+{% row(style="center" margin="hero" padding="bottom") %}
+
+<p>Discover how Mycelium Network is revolutionizing internet access with a decentralized, community-powered approach. We aim to empower individuals worldwide by enabling them to own and manage internet resources collectively.</p>
+
+<br>
+
+<button onclick="yourlink">
+  Learn More
+</button>
+
+{% end %}
+
+
+<!-- section 5 subscription -->
+
+{% row(style="left" margin="hero" padding="bottom") %}
+
+![](./img/nodes.png#mx-auto)
+
+|||
+
+## Powered by Mycelium Nodes
+### h3 h3 h3 h3
+
+<p>Mycelium Network and Heroes exist thanks to a vast network of cloud capacity deployed by ‘Farmers’- who deploy Mycelium Nodes in supporting locations worldwide.</p>
+
+br>
+
+<div class="border-t border-gray-200 dark:border-gray-700">
+</div>
+
+
+<br>
+
+<ul>
+  <li>◉   Decentralized and globally distributed.</li>
+  <li>◉   Fully Autonomous Operations</li>
+  <li>◉   Peer-to-Peer Technologies</li>
+</ul>
+
+<br>
+
+<p>Together, we can create a globally distributed AI and internet infrastructure and earn an income.</p>
+
+<br>
+
+<div class="border-t border-gray-200 dark:border-gray-700">
+</div>
+
+<br>
+
+<a href="/hero.md"><p class="link2"><b>→ Learn More About Mycelium Nodes</b></p></a>
+
+{% end %}
+
+
+
+
+
+<!-- section 4 (header) -->
+
+<div class="container mx-auto"> 
+
+{% row(style="center" margin="hero" padding="bottom") %}
+
+## Join The Movement
+
+<p>Hero invites you to your new sovereign digital life with 3 easy steps</p>
 
 {% end %}
 
@@ -51,10 +173,10 @@ weight: 1
 
 <div class="mx-4 my-4">
 
-![Image](./img/img_column_item.png#md#mx-auto)
+![Image](./img/item1.png#mx-auto)
 
-#### item 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+#### Get A Node & Earn
+<p>Get a Mycelium Node and add capacity to the Mycelium Network.</p>
 
 </div>
 
@@ -62,191 +184,89 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <div class="mx-4 my-4">
 
-![Image](./img/img_column_item.png#md#mx-auto)
+![Image](./img/item2.png#mx-auto)
 
-#### item 2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+#### Get Your Hero
+<p>Register and reserve your own Hero - your sovereign digital identity.<p>
 </div>
 
 |||
 
 <div class="mx-4 my-4">
 
-![Image](./img/img_column_item.png#md#mx-auto)
+![Image](./img/item3.png#mx-auto)
 
-#### item 3
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+#### Acquire INCA Token
+<p>Purchase INCA - The digital currency of the Mycelium Network.</p>
 
 </div>
 
 {% end %}
 
-<!-- section 2 security -->
 
-{% row(style="left" margin="withContainer" padding="bottom") %}
 
-![placeholder](./img/img_section.png#mx-auto)
 
-|||
+<!-- section5 xp -->
 
-## h2h2h2
+{% row(style="left" margin="hero"  padding="bottom") %}
 
-### h3 subtitle
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <br>
- <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam<br><br>
-
-<button onclick="yourlink">
-  button
-</button>
-
-{% end %}
-
-<!-- section 2 security -->
-
-{% row(style="right" margin="withContainer" padding="bottom") %}
-
-## h2 h2 h2
-
-### h3 subtitle
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <br>
- <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam<br><br>
-
-<button onclick="yourlink">
-  button
-</button>
+![placeholder](./img/experiences.png#mx-auto)
 
 |||
 
-![placeholder](./img/img_section.png#mx-auto)
+## Hero Xperiences
 
-
-
-{% end %}
-
-<!-- section 3 features title -->
-
-{% row(style="center" margin="narrow" padding="none") %}
-
-## middle title
-### subtitle
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+<p>Dive into a world of fully decentralized and completely secure applications on the Mycelium Network, built to empower and enable our Heroes with innovative digital Xperiences.</p>
 
 <br>
 
-{% end %}
-
-{% row(style="center" margin="narrow" padding="none") %}
-
-<div class="mx-4 my-4">
-
-![Image](./img/img_column.png#sm#mx-auto)
-
-#### Lorem ipsum 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+<div class="border-t border-gray-200 dark:border-gray-700">
 </div>
-
-|||
-
-<div class="mx-4 my-4">
-
-![Image](./img/img_column.png#sm#mx-auto)
-
-#### Lorem ipsum 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-</div>
-
-|||
-
-<div class="mx-4 my-4">
-
-![Image](./img/img_column.png#sm#mx-auto)
-
-#### Lorem ipsum 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-</div>
-
-{% end %}
 
 <br>
 
-{% row(style="center" margin="narrow" padding="none") %}
-
-<div class="mx-4 my-4">
-
-![Image](./img/img_column.png#sm#mx-auto)
-
-#### Lorem ipsum 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-</div>
-
-|||
-
-<div class="mx-4 my-4">
-
-![Image](./img/img_column.png#sm#mx-auto)
-
-#### Lorem ipsum 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-</div>
-
-|||
-
-<div class="mx-4 my-4">
-
-![Image](./img/img_column.png#sm#mx-auto)
-
-#### Lorem ipsum 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-</div>
-
-{% end %}
-
-<!-- section 5 subscription -->
-
-{% row(style="left" margin="withContainer" padding="both") %}
-
-![](./img/img_portrait.png#mx-auto)
-
-|||
-
-## h2 h2 h2
-### h3 h3 h3 h3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<ul>
+  <li>◉   <b>Chat App</b>: Stay connected with secure, private messaging.</li>
+  <li>◉   <b>Wallet</b>: Manage your assets with our integrated digital wallet.</li>
+  <li>◉   <b>Browser</b>: Browse the internet securely and privately.</li>
+  <li>◉   <b>Cloud</b>: Store and access your files securely from anywhere.</li>
+</ul>
 
 <br>
 
-<button onclick="yourlink">
-  button
-</button>
+<div class="border-t border-gray-200 dark:border-gray-700">
+</div>
+
+<br>
+
+<a href="/hero.md"><p class="link2"><b>→ Explore Hero Xperiences</b></p></a>
 
 {% end %}
+
+
+
+
+
+
+
+
 
 <!-- section 6 in the news -->
 
 {% row(style="center" padding="bottom") %}
 
-[![logo1](img/logo_bottom.png#small)](yourlink)
+[![logo1](img/brand1.png#small)](yourlink)
 
 |||
 
-[![logo2](img/logo_bottom.png#small)](yourlink)
+[![logo2](img/brand3.png#small)](yourlink)
 
 |||
 
-[![logo3](img/logo_bottom.png#small)](yourlink)
+[![logo3](img/brand5.png#small)](yourlink)
 
 |||
 
-[![logo4](img/logo_bottom.png#small)](yourlink)
+[![logo4](img/brand2.png#small)](yourlink)
 
 {% end %}

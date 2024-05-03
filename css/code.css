@@ -1,3 +1,4 @@
+/* Syntax Highlighting */
 code.language-html,
 code.language-css,
 code.language-md,
@@ -37,7 +38,7 @@ span.ge {
 
 pre,
 code {
-  @apply font-mono;
+  font-family: monospace;
 }
 
 code {
@@ -48,7 +49,6 @@ code {
 }
 
 pre {
-  margin: 0;
   margin: 0;
   padding: 1rem;
   overflow: scroll;
@@ -74,17 +74,7 @@ pre code {
 
   & .lineno {
     color: hsla(0, 0%, 67%, 0.72);
-    display: inline-block; /* Ensures the null space also isn't selectable */
-    padding: 0 0.75rem 0 0.25rem;
-    /* Make sure numbers aren't selectable */
+    display: inline-block;
+    padding: 0 0.9rem 0 0.25rem;
   }
 }
-
-/* TODO: dark theme for future
-@media (prefers-color-scheme: dark) {
-  code {
-    color: #fff;
-    background: hsl(200, 63%, 15%);
-  }
-}
-*/
